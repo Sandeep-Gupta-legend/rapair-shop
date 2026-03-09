@@ -1,0 +1,24 @@
+{
+  "name": "samarth-mobile-fullstack",
+  "version": "1.0.0",
+  "description": "MERN stack website for Samarth Mobile repair shop",
+  "scripts": {
+    "install-all": "cd server && npm install && cd ../client && npm install",
+    "dev": "concurrently \"cd server && npm run dev\" \"cd client && npm run dev\"",
+    "build": "cd client && npm run build",
+    "start": "cd server && npm start"
+  },
+  "keywords": [
+    "mern",
+    "react",
+    "node",
+    "express",
+    "mongodb",
+    "repair-shop"
+  ],
+  "author": "Samarth Mobile",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
